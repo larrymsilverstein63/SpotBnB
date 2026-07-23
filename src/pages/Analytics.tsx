@@ -26,7 +26,7 @@ export default function Analytics() {
                 '--ts-var-button--primary--hover-background': '#E31C5F',
                 '--ts-var-root-color': '#222222',
                 '--ts-var-link-color': '#FF385C',
-              },
+              } as any,
               rules_UNSTABLE: {
                 '.footer-module__footerLogo': { display: 'none !important' },
                 '.footer-module__footer': { display: 'none !important' },
